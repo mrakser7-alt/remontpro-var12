@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - remontpro-data:/var/www/html/data
+    restart: unless-stopped
+
+volumes:
+  remontpro-data:
+

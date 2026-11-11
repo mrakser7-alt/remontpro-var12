@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<style>
+.static-demo-banner{position:relative;z-index:1000;padding:10px 20px;background:#17212b;color:#fff;text-align:center;font:600 13px/1.4 Manrope,Arial,sans-serif}.static-demo-banner strong{color:#f0ad4e}.static-demo-banner a{color:#fff;text-decoration:underline}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Услуги — ремонт квартир и коттеджей | РемонтПро</title>
+    <meta name="description" content="Все виды ремонтных работ: косметический и капитальный ремонт, дизайнерский ремонт, коттеджи, ванные, кухни и инженерные работы. Цены и сроки.">
+    <meta name="theme-color" content="#14181f">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=13">
+</head>
+<body class="">
+<div class="static-demo-banner" role="status">
+    <strong>Демо на GitHub Pages.</strong>
+    Формы, регистрация, личный кабинет и админ-панель работают в полной PHP-версии после локального запуска.
+</div>
+
+<div class="topbar">
+    <div class="container topbar__inner">
+        <div class="topbar__left">
+            <a class="topbar__item" href="tel:+74951204500">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.2 1.1l-2.3 1.9z"/></svg>
+                +7 (495) 120-45-00
+            </a>
+            <a class="topbar__item topbar__item--muted" href="mailto:info@remontpro.ru">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A2.5 2.5 0 015.5 4h13A2.5 2.5 0 0121 6.5v11a2.5 2.5 0 01-2.5 2.5h-13A2.5 2.5 0 013 17.5v-11zm2.2-.5L12 11l6.8-5H5.2zM19 7.9l-6.4 4.7a1 1 0 01-1.2 0L5 7.9V17.5c0 .3.2.5.5.5h13c.3 0 .5-.2.5-.5V7.9z"/></svg>
+                info@remontpro.ru
+            </a>
+        </div>
+        <div class="topbar__right">
+            <span class="topbar__item topbar__item--muted topbar__hours">Пн–Вс: 9:00–21:00</span>
+            <a class="topbar__item topbar__admin" href="team.html">Команда проекта</a>
+        </div>
+    </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+        <a class="logo" href="index.html" aria-label="РемонтПро — на главную">
+            <span class="logo__mark" aria-hidden="true">
+                <svg viewBox="0 0 48 48"><rect width="48" height="48" rx="14" fill="#e8a33d"/><path d="M14 31.5V22l10-6.5 10 6.5v9.5" fill="none" stroke="#14181f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 33v-7h8v7" fill="none" stroke="#14181f" stroke-width="3" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="logo__text">
+                <strong>Ремонт<span>Про</span></strong>
+                <small>квартиры и коттеджи</small>
+            </span>
+        </a>
+
+        <nav class="nav" id="mainNav" aria-label="Основная навигация">
+            <a class="nav__link" href="about.html">О компании</a>
+            <a class="nav__link is-active" href="services.html">Услуги</a>
+            <a class="nav__link" href="portfolio.html">Портфолио</a>
+            <a class="nav__link" href="reviews.html">Отзывы</a>
+            <a class="nav__link" href="promos.html">Акции</a>
+            <a class="nav__link" href="contacts.html">Контакты</a>
+            <a class="nav__link nav__link--accent" href="request.html">Заявка на ремонт</a>
+            <a class="nav__link" href="login.html">
+                Личный кабинет
+            </a>
+        </nav>
+
+        <div class="header__actions">
+                            <a class="btn btn--ghost btn--sm" href="register.html">Регистрация</a>
+                                    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+<div class="nav-overlay" id="navOverlay" hidden></div>
+
+<main id="main">
+        
+<section class="page-hero">
+    <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+            <a href="index.html">Главная</a><span class="sep">/</span><span>Услуги</span>
+        </nav>
+        <span class="eyebrow">Что мы делаем</span>
+        <h1>Услуги и цены</h1>
+        <p>Полный спектр ремонтных работ для квартир и загородных домов. Любую услугу можно заказать отдельно или в составе комплексного ремонта под ключ.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="filter-bar">
+            <a class="filter-chip is-active" href="services.html">Все услуги <span>10</span></a>
+                            <a class="filter-chip" href="services.html">
+                    Косметический ремонт <span>1</span>
+                </a>
+                            <a class="filter-chip" href="services.html">
+                    Капитальный ремонт <span>2</span>
+                </a>
+                            <a class="filter-chip" href="services.html">
+                    Дизайнерский ремонт <span>1</span>
+                </a>
+                            <a class="filter-chip" href="services.html">
+                    Отдельные работы <span>4</span>
+                </a>
+                            <a class="filter-chip" href="services.html">
+                    Инженерные работы <span>2</span>
+                </a>
+                    </div>
+
+                    <div class="services-grid">
+                                    <a class="service-card" href="service-kosmeticheskiy-remont.html" data-reveal>
+                        <span class="service-card__icon" style="background:#e8a33d22">🎨</span>
+                        <span class="service-card__cat">Косметический ремонт</span>
+                        <h3>Косметический ремонт квартиры</h3>
+                        <p>Обновим стены, потолки и полы без перепланировки — быстро, аккуратно и с гарантией 2 года.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>4 500 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-kapitalnyy-remont.html" data-reveal>
+                        <span class="service-card__icon" style="background:#d9774222">🏗️</span>
+                        <span class="service-card__cat">Капитальный ремонт</span>
+                        <h3>Капитальный ремонт квартиры</h3>
+                        <p>Полная перестройка пространства: перепланировка, инженерия, черновая и чистовая отделка под ключ.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>9 800 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-remont-kottedzha.html" data-reveal>
+                        <span class="service-card__icon" style="background:#4d9d8a22">🏡</span>
+                        <span class="service-card__cat">Капитальный ремонт</span>
+                        <h3>Ремонт коттеджа под ключ</h3>
+                        <p>Дома от 100 до 700 м²: инженерия, отделка, лестницы, фасад и благоустройство участка.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>12 500 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-dizaynerskiy-remont.html" data-reveal>
+                        <span class="service-card__icon" style="background:#8a6bd122">✨</span>
+                        <span class="service-card__cat">Дизайнерский ремонт</span>
+                        <h3>Дизайнерский ремонт</h3>
+                        <p>Реализуем интерьер по вашему дизайн-проекту или разработаем его с нашими партнёрами-дизайнерами.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>18 000 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-remont-vannoy.html" data-reveal>
+                        <span class="service-card__icon" style="background:#3d8bb822">🛁</span>
+                        <span class="service-card__cat">Отдельные работы</span>
+                        <h3>Ремонт ванной комнаты</h3>
+                        <p>Гидроизоляция, плитка, сантехника и вентиляция — ванная под ключ за 3–4 недели.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>65 000 ₽</strong>₽ за помещение</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-remont-kuhni.html" data-reveal>
+                        <span class="service-card__icon" style="background:#b8823d22">🍳</span>
+                        <span class="service-card__cat">Отдельные работы</span>
+                        <h3>Ремонт кухни</h3>
+                        <p>Продуманная электрика, влагостойкие материалы и монтаж гарнитура — кухня мечты под ключ.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>85 000 ₽</strong>₽ за помещение</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-elektrika-i-santehnika.html" data-reveal>
+                        <span class="service-card__icon" style="background:#d3a02c22">⚡</span>
+                        <span class="service-card__cat">Инженерные работы</span>
+                        <h3>Электрика и сантехника</h3>
+                        <p>Полная замена проводки и разводки труб, щиты, тёплые полы, системы защиты.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>2 200 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-ukladka-plitki.html" data-reveal>
+                        <span class="service-card__icon" style="background:#7a8f4f22">🧱</span>
+                        <span class="service-card__cat">Отдельные работы</span>
+                        <h3>Укладка плитки и керамогранита</h3>
+                        <p>Ровные швы, аккуратные углы и подготовка основания по технологии — плитка любых форматов.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>1 900 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-natyazhnye-potolki.html" data-reveal>
+                        <span class="service-card__icon" style="background:#4f86c622">💡</span>
+                        <span class="service-card__cat">Отдельные работы</span>
+                        <h3>Натяжные потолки</h3>
+                        <p>Матовые, сатиновые и световые полотна с монтажом за один день и гарантией 10 лет.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>900 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                                    <a class="service-card" href="service-fasad-i-uteplenie.html" data-reveal>
+                        <span class="service-card__icon" style="background:#6b7b8c22">🏠</span>
+                        <span class="service-card__cat">Инженерные работы</span>
+                        <h3>Фасад и утепление</h3>
+                        <p>Утепление, штукатурка и облицовка фасада: тепло зимой, прохладно летом, красиво всегда.</p>
+                        <span class="service-card__meta">
+                            <span class="service-card__price">от<strong>1 500 ₽</strong>₽/м²</span>
+                            <span class="service-card__go"><svg viewBox="0 0 24 24"><path d="M13.2 5.4l6.4 6.6-6.4 6.6-1.4-1.4 4-4.1H4v-2h11.8l-4-4.1z"/></svg></span>
+                        </span>
+                    </a>
+                            </div>
+            </div>
+</section>
+
+<section class="section section--paper">
+    <div class="container">
+        <div class="section-head">
+            <div class="section-head__text">
+                <span class="eyebrow">Как считается цена</span>
+                <h2>Прозрачное ценообразование</h2>
+                <p>Итоговая смета зависит от площади, состояния объекта и выбранных материалов. После бесплатного замера вы получаете точный расчёт.</p>
+            </div>
+        </div>
+        <div class="values-grid">
+            <div class="value-card">
+                <span class="service-card__icon">📐</span>
+                <h3>Площадь и геометрия</h3>
+                <p>Чем сложнее планировка и больше мокрых зон, тем выше трудозатраты. Все коэффициенты видны в смете.</p>
+            </div>
+            <div class="value-card">
+                <span class="service-card__icon">🧱</span>
+                <h3>Материалы</h3>
+                <p>Работаем с материалами из бюджета, среднего и премиального сегментов. Закупаем по дилерским ценам.</p>
+            </div>
+            <div class="value-card">
+                <span class="service-card__icon">⚙️</span>
+                <h3>Инженерия</h3>
+                <p>Замена электрики, сантехники и вентиляции рассчитывается отдельно — до начала работ.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section--tight">
+    <div class="container">
+        <div class="promo-banner">
+            <div>
+                <span class="eyebrow" style="color:#7a4a05">Бесплатный замер</span>
+                <h2>Не знаете, с чего начать?</h2>
+                <p>Приедем на объект, сделаем замеры и подготовим смету в течение 24 часов. Это бесплатно и ни к чему не обязывает.</p>
+            </div>
+            <a class="btn btn--dark btn--lg" href="request.html">Заказать замер</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="footer__brand">
+                <a class="logo logo--light" href="index.html">
+                    <span class="logo__mark" aria-hidden="true">
+                        <svg viewBox="0 0 48 48"><rect width="48" height="48" rx="14" fill="#e8a33d"/><path d="M14 31.5V22l10-6.5 10 6.5v9.5" fill="none" stroke="#14181f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 33v-7h8v7" fill="none" stroke="#14181f" stroke-width="3" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span class="logo__text">
+                        <strong>Ремонт<span>Про</span></strong>
+                        <small>квартиры и коттеджи</small>
+                    </span>
+                </a>
+                <p class="footer__about">Профессиональный ремонт квартир и коттеджей под ключ с 2012 года. Собственные бригады, фиксированная смета и гарантия 3 года на все работы.</p>
+                <div class="footer__socials">
+                    <a href="#" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M21.9 4.3L18.6 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.1 13.3 1.2 11.8c-1.1-.3-1.1-1.1.2-1.6l19-7.3c.9-.3 1.7.2 1.5 1.4z"/></svg></a>
+                    <a href="#" aria-label="VK"><svg viewBox="0 0 24 24"><path d="M12.8 17.5c-5.4 0-8.7-3.8-8.9-10h2.8c.1 4.6 2.2 6.5 3.7 6.9V7.5h2.6v3.9c1.5-.2 3.1-1.9 3.6-3.9h2.6c-.4 2.5-2 4.2-3.2 4.9 1.2.6 3 2.1 3.7 5.1h-2.9c-.5-1.8-1.9-3.2-3.8-3.4v3.4h-.2z"/></svg></a>
+                    <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.2 3.6 12 3.6 12 3.6s-5.2 0-8 .3c-.4.1-1.3.1-2.1 1-.7.7-.9 2.3-.9 2.3S.8 9.1.8 11v1.8c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.7.3 7.7.3s5.2 0 8-.3c.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V11c0-1.9-.2-3.8-.2-3.8zM9.9 15.2V8.4l6 3.4-6 3.4z"/></svg></a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h3>Компания</h3>
+                <a href="about.html">О компании</a>
+                <a href="services.html">Услуги</a>
+                <a href="portfolio.html">Портфолио</a>
+                <a href="reviews.html">Отзывы</a>
+                <a href="team.html">Команда проекта</a>
+            </div>
+
+            <div class="footer__col">
+                <h3>Клиентам</h3>
+                <a href="promos.html">Акции и скидки</a>
+                <a href="request.html">Заявка на ремонт</a>
+                <a href="login.html">Личный кабинет</a>
+                <a href="contacts.html">Контакты</a>
+                                    <a href="login.html">Вход для сотрудников</a>
+                            </div>
+
+            <div class="footer__col footer__col--contacts">
+                <h3>Контакты</h3>
+                <a class="footer__phone" href="tel:+74951204500">+7 (495) 120-45-00</a>
+                <a href="mailto:info@remontpro.ru">info@remontpro.ru</a>
+                <p>Москва, ул. Большая Новодмитровская, 23, стр. 2<br>офис 214</p>
+                <p>Пн–Вс: 9:00–21:00</p>
+            </div>
+        </div>
+
+        <div class="footer__legal">
+            <p>© 2026 ООО «РемонтПро». ИНН 7701234567. ОГРН 1127746000000. Все права защищены.</p>
+            <div class="footer__legal-links">
+                <a href="about.html#documents">Политика конфиденциальности</a>
+                <span>Сайт разработан командой студентов в учебных целях</span>
+                <a href="team.html">Распределение задач по команде</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Вернуться наверх" hidden>
+    <svg viewBox="0 0 24 24"><path d="M12 5l7 7-1.4 1.4L13 8.8V19h-2V8.8L6.4 13.4 5 12l7-7z"/></svg>
+</button>
+
+<script src="assets/js/main.js?v=13" defer></script>
+<script>
+document.addEventListener('submit', function (event) {
+    event.preventDefault();
+    window.alert('Это статическая демо-версия. Запустите PHP-версию из GitHub-репозитория, чтобы отправлять формы и пользоваться аккаунтами.');
+});
+</script>
+</body>
+</html>

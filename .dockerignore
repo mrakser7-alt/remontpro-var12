@@ -1,0 +1,9 @@
+.git
+.github
+.DS_Store
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/cache/*
+docs
+
